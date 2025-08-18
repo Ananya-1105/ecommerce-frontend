@@ -24,7 +24,7 @@ function App() {
     <>
     <BrowserRouter basename="/ecommerce-frontend">
       <Routes>
-        <Route path="/" element={<S01 Home />}>
+        <Route path="/" element={<HomePage/>}>
           <Route index element={<AboutUs />} />
           <Route path="home" element={<Home />} />
           <Route path="about-us" element={<AboutUs />} />
